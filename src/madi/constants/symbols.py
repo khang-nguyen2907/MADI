@@ -1,0 +1,1 @@
+negation_symbol = "¬"

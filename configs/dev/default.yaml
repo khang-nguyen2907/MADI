@@ -1,0 +1,30 @@
+---CONFIG---
+llm_service: "groq" # or "ollama"
+---TEMPLATE---
+madi_configs:
+  domain: "mlops-basic-dev"
+  host: "0.0.0.0"
+  port: 8000
+  logging_file: "app.log"
+  llm_service: "{{ llm_service }}"
+
+  {% if llm_service == "groq" %}
+  llm:
+    default_model_name: llama-3.3-70b-versatile
+    hospital_guide_model_name: llama-3.3-70b-versatile
+    init_diagnosis_model_name: deepseek-r1-distill-llama-70b
+    leader_model_name: llama-3.3-70b-versatile
+  {% elif llm_service == "ollama" %}
+  llm:
+    default_model_name: deepseek-r1:7b
+  {% endif %}
+
+  gen_config:
+    temperature: 0.5
+    max_completion_tokens: 1024
+    top_p: 1
+    stop: null
+    stream: false
+  doc_search:
+    max_internet_docs: 1
+    max_pubmed_docs: 1

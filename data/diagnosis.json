@@ -1,0 +1,49 @@
+{
+    "final_diagnosis": [
+        {
+        "possible_disease": "Upper Gastrointestinal Bleeding (UGIB) due to Peptic Ulcer Disease",
+        "evidences": [
+            {
+            "symptoms": [
+                "Vomiting blood for 2 days after eating",
+                "Vomiting of coffee-colored gastric contents"
+            ],
+            "references": [
+                "Internet document 0: Hematemesis is a sign of internal bleeding from the upper portion of your digestive tract — the esophagus, stomach and first portion of your small intestine called the duodenum.",
+                "PubMed: Peptic ulcer disease is a common cause of upper gastrointestinal bleeding, with a mortality rate of 5-10% (Source: 'Peptic Ulcer Disease' by the American Gastroenterological Association)"
+            ]
+            }
+        ]
+        },
+        {
+        "possible_disease": "Cirrhosis with Portal Hypertension",
+        "evidences": [
+            {
+            "symptoms": [
+                "Chronic Hepatitis B for three years",
+                "Pale skin and mucous membranes"
+            ],
+            "references": [
+                "Internet document 1: Chronic hepatitis B raises the risk of liver failure, liver cancer and serious scarring of the liver called cirrhosis.",
+                "PubMed: Patients with cirrhosis are at risk of developing portal hypertension, which can lead to varices and bleeding (Source: 'Cirrhosis and Portal Hypertension' by the American Association for the Study of Liver Diseases)"
+            ]
+            }
+        ]
+        },
+        {
+        "possible_disease": "Variceal Bleeding",
+        "evidences": [
+            {
+            "symptoms": [
+                "Chronic Hepatitis B for three years",
+                "Vomiting blood for 2 days after eating"
+            ],
+            "references": [
+                "Internet document 1: Chronic hepatitis B raises the risk of liver failure, liver cancer and serious scarring of the liver called cirrhosis.",
+                "PubMed: Variceal bleeding is a common complication of cirrhosis, with a mortality rate of 30-50% (Source: 'Variceal Bleeding' by the American Gastroenterological Association)"
+            ]
+            }
+        ]
+        }
+    ]
+    }

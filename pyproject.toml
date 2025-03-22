@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "madi"
+version = "0.1.0"
+description = ""
+authors = ["khang-nguyen2907 <giakhang29079@gmail.com>"]
+readme = "README.md"
+packages = [
+    { include = "madi", from="src"}
+]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+phidata = "^2.7.10"
+groq = "^0.18.0"
+duckduckgo-search = "^7.5.0"
+python-dotenv = "^1.0.1"
+pymed = "^0.8.9"
+sentence-transformers = "^3.4.1"
+ollama = "^0.4.7"
+jinja2 = "^3.1.6"
+gradio = "^5.22.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
