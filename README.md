@@ -46,8 +46,8 @@ Before you begin, ensure you have the following installed:
 1.  **Clone the Repository (Optional):** If the project code is hosted on a Git repository (e.g., GitHub, GitLab), clone it to your local machine using the following command:
 
     ```bash
-    git clone <repository_url>
-    cd <project_directory>
+    git clone https://github.com/khang-nguyen2907/MADI
+    cd MADI
     ```
 
 2.  **Install Dependencies using Poetry:** Navigate to the project directory in your terminal and run the following command to install all the necessary dependencies specified in the `pyproject.toml` file:
